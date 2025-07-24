@@ -1,0 +1,266 @@
+**1. What is Blade engine?**
+Blade is Laravel's built-in templating engine that allows writing clean, reusable HTML with embedded PHP using simple syntax like `@if`, `@foreach`, etc.
+
+**2. Importance of Laravel:**
+Laravel simplifies web development with built-in features like routing, Eloquent ORM, Blade templating, security, and MVC structure.
+
+**3. What is seeding in database?**
+Seeding is the process of populating the database with sample or test data using Laravel's `DatabaseSeeder` class.
+
+
+✅ **Laravel MCQs with Answers** (Multiple Choice Options)
+Here are the correct answers with explanations where helpful:
+
+---
+
+**1. Within which file can we configure our database connectivity?**
+✅ a. Config/database.php
+📝 Laravel stores database configurations here.
+
+---
+
+**2. What is the purpose of Laravel Forge in Laravel?**
+✅ a. Conjunction with another hosting service
+📝 Laravel Forge helps deploy apps on servers like DigitalOcean, Linode, etc.
+
+---
+
+**3. Laravel currently supports databases, including:**
+✅ a. MySQL, PostgreSQL, SQLite, Microsoft SQL Server
+📝 These are the officially supported databases.
+
+---
+
+**4. App directory contains:**
+✅ c. Model, Controller, Middleware
+📝 The `app/` folder contains core application code including MVC components.
+
+---
+
+**5. Artisan is a:**
+✅ c. Command line interface
+📝 Artisan is Laravel’s CLI tool for automation.
+
+---
+
+**6. What is composer.json?**
+✅ a. This file identifies the packages you like to integrate into your application
+✅ b. Used to configure the composer package manager
+📝 Both are true; it's used for dependency management.
+
+---
+
+**7. Which property is used to identify columns that should not be passed into JSON?**
+✅ d. \$hidden
+📝 `$hidden` hides model attributes during serialization.
+
+---
+
+**8. How can you edit a record in RESTful service?**
+✅ c. PUT
+📝 PUT is used for updating existing resources.
+
+---
+
+**9. The dd() is a:**
+✅ a. Helper function
+📝 `dd()` = Dump and Die, used for debugging.
+
+---
+
+**10. Which of the following is NOT correct?**
+✅ b. return view("home")->with(\$city, 'city');
+📝 The first parameter must be a string (variable name).
+
+---
+
+**11. How to determine variable existence?**
+✅ a. Welcome, {{\$name or 'Guest'}}
+📝 The `or` fallback syntax is Blade-specific and works for optional variables.
+
+---
+
+**12. Which of the following is false?**
+✅ c. @yield directive identifies the id of the section
+📝 `@yield` defines **content placeholder**, not an ID.
+
+---
+
+**13. Which of the following is not a RESTful method?**
+✅ a. create()
+📝 While `create()` is used in Laravel, it's not an HTTP REST method.
+
+---
+
+**14. Which is used in Laravel to prevent malicious users?**
+✅ a. \$fillable
+📝 `$fillable` prevents mass assignment vulnerabilities.
+
+---
+
+**15. Which is used in Laravel to create a large amount of sample data?**
+✅ a. Faker Package
+✅ c. Seeding
+📝 Faker + Seeder classes help generate dummy data.
+
+---
+
+**16. Which file configures the application URL, timezone, locale, autoload service provider?**
+✅ a. app.php
+📝 Located in `config/app.php`.
+
+---
+
+**17. Where do we get log files in Laravel?**
+✅ d. Storage\logs
+📝 Default log path: `storage/logs/laravel.log`
+
+---
+
+**18. Which is the default location of your project’s view?**
+✅ c. view\.php
+📝 Laravel views are stored in `resources/views`, but this answer refers to configuration file names.
+⚠️ This one is ambiguous — might be better reworded.
+
+---
+
+**19. What is the meaning of `Todolist::take(5)->skip(10)->orderBy("id", "asc")->get()`?**
+✅ b. Select first 5 records after skipping 10
+📝 This skips 10 rows and then takes 5 sorted by ID ascending.
+
+---
+
+**20. How to open a form in Laravel?**
+✅ a. Form::open
+📝 Requires the **Form** facade (usually via LaravelCollective).
+
+---
+
+Let me know if you want this as a downloadable PDF or printable format!
+
+✅ **Laravel MCQs with Answers (21–40)**
+Here are the **correct answers** for each multiple-choice question:
+
+---
+
+**21. What do you mean by Laravel Elixir?**
+✅ a. An easy solution for compiling Laravel project
+📝 Laravel Elixir provides a clean API for defining basic Gulp tasks.
+
+---
+
+**22. Which option do you have to change to manage cache and session data in Laravel?**
+✅ A. Redis
+📝 Redis is often used for session and cache drivers.
+
+---
+
+**23. What is the abbreviation of ORM?**
+✅ B. Object-Relational Mapping
+📝 ORM allows database records to be represented as objects.
+
+---
+
+**24. What is the role of middleware?**
+✅ B. Process request and response
+📝 Middleware filters HTTP requests before they reach the controller.
+
+---
+
+**25. Which Laravel property identifies the columns that can be inserted/updated by way of mass assignment?**
+✅ B. \$fillable
+📝 Protects against mass assignment vulnerabilities.
+
+---
+
+**26. What do you mean by Heroku?**
+✅ A. Cloud based hosting solution
+📝 Heroku is a platform-as-a-service (PaaS) used to deploy Laravel apps.
+
+---
+
+**27. Which file is responsible for scheduling any command?**
+✅ B. Kernel.php
+📝 `app/Console/Kernel.php` contains the schedule() method.
+
+---
+
+**28. Which file is used to verify a user?**
+✅ D. Authenticated.php
+📝 Used in Laravel’s authentication system.
+
+---
+
+**29. Which property is used to identify columns that should not be passed into JSON?**
+✅ d. \$hidden
+📝 Hides sensitive model attributes from array or JSON.
+
+---
+
+**30. How can you edit a record in RESTful service?**
+✅ c. PUT
+📝 PUT is used to update a resource.
+
+---
+
+**31. The dd() is a**
+✅ a. helper function
+📝 `dd()` = Dump and Die; debugging tool.
+
+---
+
+**32. Which of the following is not correct?**
+✅ b. return view("home")->with(\$city , 'city');
+📝 The first parameter must be a string (key name).
+
+---
+
+**33. How to determine variable existence?**
+✅ a. Welcome, {{\$name or ‘Guest’}}
+📝 Blade fallback for optional variables.
+
+---
+
+**34. Which of the following is false?**
+✅ c. @yield directive identifies the id of the section
+📝 `@yield` creates a placeholder, not an ID.
+
+---
+
+**35. Which of the following is not a RESTful method?**
+✅ a. create()
+📝 Not a REST HTTP method; REST uses GET, POST, PUT, DELETE.
+
+---
+
+**36. Todolist::take(5)->skip(10)->orderby("id", asc)->get() means**
+✅ A. Select first 5 records after skipping 10 records
+📝 `skip(10)` skips records, `take(5)` retrieves 5 next ones.
+
+---
+
+**37. Keyword "Has Many" means**
+✅ B. One to many relationship
+📝 Example: A user has many posts.
+
+---
+
+**38. For image upload, Form::file is a**
+✅ A. Helper
+📝 Used in form builders (Laravel Collective).
+
+---
+
+**39. Which middleware is used to confirm a user is not signed in to the application?**
+✅ C. RedirectIfAuthenticated.php
+📝 Redirects logged-in users trying to access guest-only routes.
+
+---
+
+**40. Which property is used to identify columns that should not be passed into JSON or arrays?**
+✅ B. \$hidden
+📝 Laravel hides sensitive attributes using `$hidden`.
+
+---
+
+✅ Let me know if you'd like **questions 41–60** or a **PDF download** of all MCQs!
